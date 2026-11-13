@@ -37,8 +37,8 @@ namespace ams::boot {
         InitializeDisplay();
         {
             /* Splash screen is shown for 2 seconds. */
-            ShowDisplay(SplashScreenX, SplashScreenY, SplashScreenW, SplashScreenH, SplashScreen);
-            os::SleepThread(TimeSpan::FromSeconds(2));
+//            ShowDisplay(SplashScreenX, SplashScreenY, SplashScreenW, SplashScreenH, SplashScreen);
+//            os::SleepThread(TimeSpan::FromSeconds(2));
         }
         FinalizeDisplay();
     }
